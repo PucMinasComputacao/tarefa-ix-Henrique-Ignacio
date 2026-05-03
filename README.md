@@ -1,14 +1,68 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OKXURa2t)
-# Trabalho Prático - Semana 9
+# Mini Ecommerce – Catálogo em Cards
 
-Nesta atividade, você vai montar um programa para praticar funções em JavaScript e a manipulação do DOM, criando uma tela simples no estilo eCommerce que lista produtos em cards a partir de um objeto JSON (array de produtos).
+**Aluno:** Henrique Ignacio Ferreira Souza  
+**Matrícula:** 1638573  
+**Disciplina:** Desenvolvimento Web  
 
-Você vai usar métodos e propriedades do document e seus nodos para criar elementos, definir atributos, alterar conteúdo, estilizar e registrar eventos.
+---
 
-A atividade foi pensada para ser concluída em até 1h no laboratório, usando Visual Studio Code e um navegador (DevTools/Console).
+## 📋 Sobre o Projeto
 
-## Informações Gerais
+Aplicação de catálogo de produtos tech desenvolvida com HTML, CSS e JavaScript puro.  
+O usuário pode buscar produtos por nome, filtrar por categoria, ver detalhes e destacar cards.
 
-- Nome:
-- Matricula:
+---
 
+## ✅ Funcionalidades Implementadas
+
+| Funcionalidade | Status |
+|---|---|
+| 10 produtos renderizados em cards | ✅ |
+| Select de categorias preenchido dinamicamente | ✅ |
+| Busca por texto filtra produtos | ✅ |
+| Filtro por categoria funciona | ✅ |
+| "Ver detalhes" exibe informações completas | ✅ |
+| "Destacar" altera visual do card | ✅ |
+| `getElementById` | ✅ |
+| `querySelector` | ✅ |
+| `querySelectorAll` | ✅ |
+| `innerHTML` | ✅ |
+| `createElement`, `setAttribute`, `appendChild` | ✅ |
+| `classList.add`, `style` | ✅ |
+| `addEventListener` | ✅ |
+
+---
+
+## 🛠 Tecnologias
+
+- HTML5
+- CSS3 (variáveis, Grid, Flexbox, animações)
+- JavaScript ES6+ (vanilla)
+
+---
+
+## 📸 Prints
+
+> **Instruções:** substitua os placeholders abaixo pelos seus prints reais antes de entregar.
+
+### Cards Renderizados
+![Cards renderizados](prints/cards.png)
+
+### Área de Detalhes Preenchida
+![Detalhes do produto](prints/detalhes.png)
+
+### Console do Navegador (querySelectorAll)
+![Console mostrando data-id dos cards](prints/console.png)
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repositorio>
+   ```
+2. Abra o arquivo `index.html` diretamente no navegador  
+   *(ou use a extensão Live Server no VS Code)*
+
+---
